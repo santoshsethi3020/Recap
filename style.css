@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:ROND@69&display=swap');
+
+body {
+    margin: 0;
+    background-color: #0B134F;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.team {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 60px;
+}
+
+.scorecard {
+    background-color: black;
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings: "ROND" 100;
+    font-size: 80px;
+    color: red;
+    margin-bottom: 50px;
+    width: 400px;
+    align-items: center;
+}
+
+.scoreBtn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+    width: 400px;
+}
+
+.addScore{
+    background-color: inherit;
+    color: white;
+    font-size: 30px;
+    border-color: white;
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 50;
+    font-style: normal;
+    font-variation-settings: "ROND" 100;
+    border-radius: 4px;
+}
+
+.resetContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.reset{
+    background-color: inherit;
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "ROND" 100;
+    border-radius: 4px;
+    color: white;
+    border-color: white;
+    font-size: 50px;
+}
